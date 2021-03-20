@@ -4,11 +4,11 @@ import tweepy
 import time
 
 #Twitter API keys/tokens
-consumer_key = 'KTwIOegG32OuQuA62AAdbNQDe'
-consumer_secret = '4YICrglq7DH9CWm8YYUxIsCpU3esS56vNloImXdmy93zPSuSmH'
+consumer_key = 'KTwIOegG32OuQuA62AAdbNQD'
+consumer_secret = '4YICrglq7DH9CWm8YYUxIsCpU3esS56vNloImXdmy93zPSuSm'
 
-key = '1334399834812342272-EYNyxUM6pBQZA4mhCmfApFGTNFoGao'
-secret = 'hcrRsCQyNNuc9YRewSm13xYoZcyBmNdPjkjFhzu5FcfKs'
+key = '1334399834812342272-EYNyxUM6pBQZA4mhCmfApFGTNFoGa'
+secret = 'hcrRsCQyNNuc9YRewSm13xYoZcyBmNdPjkjFhzu5FcfK'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(key, secret)
